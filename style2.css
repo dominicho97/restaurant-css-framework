@@ -1,0 +1,19 @@
+a{
+  color:black;
+  padding-left: 25px;
+}
+
+
+.jumbotron-fluid{
+  margin-top:-25px;
+  position: relative;
+  height: 400px;
+  
+  
+
+}
+
+.navbar{
+  height: 75px;
+  
+}
