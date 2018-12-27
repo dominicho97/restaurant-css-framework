@@ -3,14 +3,14 @@
 
  a{
   color:black;
-  padding-left: 20px;
+  padding-left: 25px;
 }
 
 
 .jumbotron-fluid{
   margin-top:-25px;
   position: relative;
-  height: 300px;
+  height: 400px;
   background-image: url()
 
 }
@@ -18,5 +18,19 @@
 .navbar{
   height: 70px;
   
+}
+
+.card-2{
+left: 800px;
+position: relative;
+top:-10px;
+}
+
+.card-body{
+  margin-bottom: -200px;
+}
+
+
+@media (min-width: 768px){
   
 }
