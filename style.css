@@ -4,3 +4,16 @@
  a{
   color:black;
 }
+
+
+.jumbotron-fluid{
+  margin-top:-25px;
+  position: relative;
+  height: 300px;
+
+}
+
+.navbar{
+  height: 70px;
+  
+}
