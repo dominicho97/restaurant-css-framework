@@ -19,3 +19,7 @@ a{
   
 }
 
+.row{
+  background-image: url("images/drink1.jpg");
+  background-size:100%; 
+}
