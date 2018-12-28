@@ -11,8 +11,8 @@
   margin-top:-25px;
   position: relative;
   height: 400px;
-  background-image: url("images/hamburger1.jpg");
-  
+  background-image: url("images/pizza1.jpg");
+  background-size:100%; 
 
 }
 
