@@ -8,6 +8,7 @@ a{
   margin-top:-25px;
   position: relative;
   height: 350px;
+ 
   
   
 
@@ -16,4 +17,10 @@ a{
 .navbar{
   height: 75px;
   
+}
+
+
+.price-1{
+  left:1000px;
+  position:fixed;
 }
