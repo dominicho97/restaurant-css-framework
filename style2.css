@@ -10,7 +10,7 @@ a{
   height: 350px;
  
   background-image: url("images/pizza4.jpg");
-  
+  margin-bottom: 0px;
 
 }
 
@@ -19,8 +19,10 @@ a{
   
 }
 
-.row{
+
+
+.jumbo2{
   background-image: url("images/drinks.jpg");
   background-size:100%; 
+  
 }
-
