@@ -9,7 +9,7 @@ a{
   position: relative;
   height: 350px;
  
-  
+  background-image: url("images/pizza4.jpg");
   
 
 }
@@ -23,3 +23,4 @@ a{
   background-image: url("images/drinks.jpg");
   background-size:100%; 
 }
+
