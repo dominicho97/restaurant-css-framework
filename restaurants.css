@@ -15,9 +15,11 @@ a{
 .jumbotron{
   top: 100px;
   position: relative;
+  height: 500px;
 }
 
 .haha{
-
+padding-top: 10px;
  font-size: 18px;
+ color: gray;
 }
