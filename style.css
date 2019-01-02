@@ -11,9 +11,10 @@
   margin-top:-25px;
   position: relative;
   height: 420px;
-  background-image: url("images/hamburger3.jpg");
-  background-size:100%; 
+  
+  background-size: 100%;
   margin-bottom: 0px;
+  background-image: url("images/pizza9.jpg");
 }
 
 .navbar{
