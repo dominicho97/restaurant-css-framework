@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="contact.css">
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/thumbnail-gallery.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 </head>
 
@@ -33,57 +34,79 @@
 
     <div class="formulier">
     <form>
+
+        <form>
+            <div class="form-row">
+              <div class="col">
+                
+                  <label for="inputEmail4">First name</label>
+                <input type="text" class="form-control" placeholder="First name">
+              </div>
+              <div class="col">
+                  <label for="inputEmail4">Last name</label>
+                <input type="text" class="form-control" placeholder="Last name">
+              </div>
+            </div>
+          </form>
+
+
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
             <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
           </div>
+         
           <div class="form-group col-md-6">
+            <!--empty bar-->
             
-            
-          </div>
+          </div> 
+        </div>
 
 
-        </div>
         <div class="form-group">
-          <label for="inputAddress">Address</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+          <label for="inputAddress">Street name</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Sint-Pietersvliet 7, 2000 Antwerpen">
         </div>
-        <div class="form-group">
-          <label for="inputAddress2">Address 2</label>
-          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-        </div>
+
+
+
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputCity">City</label>
-            <input type="text" class="form-control" id="inputCity">
+            <input type="text" class="form-control" id="inputCity" placeholder="Antwerpen">
           </div>
+
           <div class="form-group col-md-4">
-            <label for="inputState">State</label>
+            <label for="inputState">Postal code</label>
             <select id="inputState" class="form-control">
               <option selected>Choose...</option>
               <option>...</option>
             </select>
           </div>
-          <div class="form-group col-md-2">
-            <label for="inputZip">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
+          
+            <div class="form-group col-md-2">
+            <!--empty bar-->
+            </div>
         </div>
+       
+        <div class="form-row align-items-center">
+            
+              <label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>Choose...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+        
         <div class="form-group">
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck">
-            <label class="form-check-label" for="gridCheck">
-              Check me out
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn btn-primary">Sign in</button>
-
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
+            <label for="exampleFormControlTextarea1"></label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
+          <button type="submit" class="btn btn-primary"><i class="far fa-arrow-alt-circle-right"></i></button>
+          
+
         </form>
       </form>
 
