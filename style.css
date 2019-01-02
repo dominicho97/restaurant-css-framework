@@ -10,10 +10,10 @@
 .jumbotron-fluid{
   margin-top:-25px;
   position: relative;
-  height: 400px;
+  height: 420px;
   background-image: url("images/hamburger3.jpg");
   background-size:100%; 
-
+  margin-bottom: 0px;
 }
 
 .navbar{
