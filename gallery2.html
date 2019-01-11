@@ -1,78 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title> Menu</title>
-  <meta name="description" content="bootstrap site">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Menu</title>
+    <meta name="description" content="bootstrap site" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="style3.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style3.css" />
 
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/thumbnail-gallery.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/thumbnail-gallery.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
-
-
-
+  <body>
     <nav class="navbar navbar-expand-sm bg-light">
-        <ul class="nav navbar-nav">
-            <li><a href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/bootstrap.html#">Home</a></li>
-            <li><a  href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/menu.html#">Menu</a>
-            </li>
-            <li><a href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery.html">Gallery</a></li>
-            <li><a href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/restaurants.html">Restaurants</a></li>
-           <li><a href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/contact.html">Contact</a></li>
-        </ul>
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="restaurants.html">Restaurants</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
-      
-
-
-
-    
-
-
 
     <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-          <li class="page-item enabled">
-            <a class="page-link" href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery.html#" tabindex="-1">Previous</a>
-          </li>
-          <li class="page-item"><a class="page-link" href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery.html#">1</a></li>
-          <li class="page-item"><a class="page-link" href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery2.html">2</a></li>
-          <li class="page-item"><a class="page-link" href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery3.html">3</a></li>
-          <li class="page-item">
-            <a class="page-link" href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery3.html">Next</a>
-          </li>
-        </ul>
-      </nav>
+      <ul class="pagination justify-content-center">
+        <li class="page-item enabled">
+          <a
+            class="page-link"
+            href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery.html#"
+            tabindex="-1"
+            >Previous</a
+          >
+        </li>
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery.html#"
+            >1</a
+          >
+        </li>
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery2.html"
+            >2</a
+          >
+        </li>
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery3.html"
+            >3</a
+          >
+        </li>
+        <li class="page-item">
+          <a
+            class="page-link"
+            href="file:///C:/Users/Dominic%20Ho/Desktop/BeCode/restaurant-css-framework/gallery3.html"
+            >Next</a
+          >
+        </li>
+      </ul>
+    </nav>
 
+    <!--Images-->
 
+    <style>
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .cards img {
+        margin: 10px;
+        border: 3px solid #000;
+        box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+        max-width: 25vw;
+      }
+    </style>
 
-
-  <!--Images-->
-
-  <style>
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-    .cards img {
-      margin: 10px;
-      border: 3px solid #000;
-      box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
-      max-width: 25vw;
-    }
-  </style>
-
-  <main class="cards">
-    <img src="images/pizza3.jpg"  alt="Sample photo">
-    <img src="images/pizza4.jpg" alt="Sample photo">
-    <img src="images/pizza7.jpg" alt="Sample photo">
-    
-  </main>
+    <main class="cards">
+      <img src="images/pizza3.jpg" alt="Sample photo" />
+      <img src="images/pizza4.jpg" alt="Sample photo" />
+      <img src="images/pizza7.jpg" alt="Sample photo" />
+    </main>
+  </body>
+</html>
